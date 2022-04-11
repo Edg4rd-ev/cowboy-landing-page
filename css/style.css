@@ -1,0 +1,140 @@
+body{
+    font-family: tahoma;
+    margin: 0%;
+    padding: 0%;
+}
+.main-div{
+    width: 720px;
+    margin: 40px auto;
+}
+.main-header{
+    height: 50px;
+    background-color: #2B1100;
+    position: relative;
+}
+.text-top{
+    font-size: 20px;
+    color: #D0BE8E;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    display: inline-block;
+    padding: 12px 60px;
+}
+.main-menu{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    height: 100%;
+}
+.main-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.main-menu li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 13px;
+    margin-right: 20px;
+}
+.main-menu li a{
+    font-size: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #776a61;
+    transition: color 0.5s linear;
+}
+.main-menu li a:hover{
+    color: #D0BE8E;
+}
+.img-cowboy{
+    width: 100%;
+}
+.about-us{
+    padding: 30px 60px;
+    text-align: center;
+}
+.about-us h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #2B1100;
+}
+.about-us p{
+    line-height: 2;
+    color: #2B1100;
+}
+.fonte-about-us{
+    font-size: 10px;
+}
+.cowboy-section{
+    padding: 30px 60px;
+    overflow: auto;
+}
+.cowboys img{
+    width: 100%;
+}
+.cowboys{
+    float: left;
+    width: 32%;
+    text-align: center;
+}.m1, .m2{
+    margin-right: 2%;
+}
+.cowboy-title{
+    font-size: 12px;
+    color: #2B1100;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.cowboy-text{
+    font-size: 12px;
+}
+.about-us-two{
+    background-color: #47250d;
+    color: #fff;
+    padding: 80px;
+    background-image: url("../imagens/efeitopistol.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+.about-us-two h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.about-us-two p{
+    line-height: 1.5;
+    width: 80%;
+    text-align: justify;
+}
+.never-section{
+    color: #2B1100;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.never{
+    margin: 50px;
+}
+.never-dies{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+.main-footer img{
+    width: 100%;
+}
+.main-footer{
+    padding: 0 0 12px;
+    background-color: #2B1100;
+    color: #D0BE8E;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.main-footer p{
+    padding-top: 6px;
+}
